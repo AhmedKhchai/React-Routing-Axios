@@ -1,0 +1,32 @@
+.Blog ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  text-align: center;
+}
+
+.Blog li {
+  display: inline;
+  float: left;
+}
+
+.Blog a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  display: block;
+}
+li a:hover,
+li a:active,
+li a.active {
+  background-color: #111;
+  /* color: orangered; */
+}
+
+.Blog header {
+  width: 100%;
+}
